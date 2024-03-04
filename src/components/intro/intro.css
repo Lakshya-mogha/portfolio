@@ -1,0 +1,11 @@
+.blob {
+  background: rgb(106, 1, 180);
+  background: linear-gradient(
+    234deg,
+    rgba(106, 1, 180, 1) 0%,
+    rgba(7, 95, 152, 1) 50%,
+    rgba(0, 91, 255, 1) 100%
+  );
+  
+  border-radius: 100% 57% 98% 41% / 100% 48% 100% 60%;
+}
