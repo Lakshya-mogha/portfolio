@@ -2,11 +2,11 @@ import React from "react";
 import "./Skills.css";
 function Skills() {
   return (
-    <div className="p-4">
+    <div className="p-4 font-Lora">
       <hr  />
-      <h1 className="font-bold text-[1.4rem] p-5 text-center">Things i play with </h1>
-      <div className="grid grid-cols-12 gap-10 m-8">
-        <div>
+      <h1 className="font-bold text-[1.4rem] p-5 text-center font-Inter">Things i play with </h1>
+      <div className="flex flex-wrap gap-2 md:gap-10 m-8">
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/521280/html-16.svg"
@@ -14,7 +14,7 @@ function Skills() {
           />
           <p>HTML</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/521275/css-16.svg"
@@ -22,7 +22,7 @@ function Skills() {
           />
           <p>css</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/473670/javascript.svg"
@@ -30,7 +30,7 @@ function Skills() {
           />
           <p>JS</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/521320/typescript-16.svg"
@@ -38,14 +38,14 @@ function Skills() {
           />
           <p>TS</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img className="img"
             src="https://www.svgrepo.com/show/521303/react-16.svg"
             alt="react"
           />
           <p>REACT</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/368858/nextjs.svg"
@@ -53,7 +53,7 @@ function Skills() {
           />
           <p>NEXT</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/521297/node-16.svg"
@@ -61,7 +61,7 @@ function Skills() {
           />
           <p>NODE</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/330398/express.svg"
@@ -69,7 +69,7 @@ function Skills() {
           />
           <p>EXPRESS</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/372906/mongodb.svg"
@@ -77,7 +77,7 @@ function Skills() {
           />
           <p>MONGODB</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/394296/mysql.svg"
@@ -85,14 +85,14 @@ function Skills() {
           />
           <p>MYSQL</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img className="img"
             src="https://www.svgrepo.com/show/342129/postgresql.svg"
             alt="POSTGRESQL"
           />
           <p>POSTGRESQL</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/473589/docker.svg"
@@ -100,7 +100,7 @@ function Skills() {
           />
           <p>DOCKER</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/368997/tailwind.svg"
@@ -108,7 +108,7 @@ function Skills() {
           />
           <p>TAILWIND</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/344496/bootstrap.svg"
@@ -116,7 +116,7 @@ function Skills() {
           />
           <p>BOOTSTRAP</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/509966/git.svg"
@@ -124,7 +124,7 @@ function Skills() {
           />
           <p>GIT</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/512317/github-142.svg"
@@ -132,7 +132,7 @@ function Skills() {
           />
           <p>GITHUB</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/306590/postman.svg"
@@ -140,7 +140,7 @@ function Skills() {
           />
           <p>POSTMAN</p>
         </div>
-        <div>
+        <div className="mx-2">
           <img
             className="img"
             src="https://www.svgrepo.com/show/473700/linux.svg"

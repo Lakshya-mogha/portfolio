@@ -7,8 +7,8 @@ function Intro() {
     <>
       <div className="md:flex">
         <div className="my-[250px] md:ml-[280px] text-[2rem] ml-5 pb-20">
-          <h1 className="font-bold">नमस्कार</h1>
-          <p className="">
+          <h1 className="font-bold font-Devanagri ">नमस्कार</h1>
+          <p className="font-Lora">
             I'm Lakshya Mogha,
             <br />
             <TypeAnimation
@@ -35,7 +35,7 @@ function Intro() {
         {/* <img
           src="./img/OIcVN0R7Yxstun0LPdOkl-transformed-removebg-preview.png"
           alt=""
-          className="blob md:ml-[180px] md:mt-[100px] mt-10"
+          className="blob md:ml-[180px] md:mt-[100px] mt-10 "
         /> */}
       </div>
       {/* <p className="py-[8rem] mt-[180px]  text-[1.6rem] ml-10 pb-20">
