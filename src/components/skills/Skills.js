@@ -5,7 +5,7 @@ function Skills() {
     <div className="p-4 font-Lora">
       <hr  />
       <h1 className="font-bold text-[1.4rem] p-5 text-center font-Inter">Things i play with </h1>
-      <div className="flex flex-wrap gap-2 md:gap-10 m-8">
+      <div className="md:flex md:flex-wrap grid grid-cols-3 gap-3 gap-x-10  md:gap-10 m-4">
         <div className="mx-2">
           <img
             className="img"
@@ -90,7 +90,7 @@ function Skills() {
             src="https://www.svgrepo.com/show/342129/postgresql.svg"
             alt="POSTGRESQL"
           />
-          <p>POSTGRESQL</p>
+          <p>POSTGRES</p>
         </div>
         <div className="mx-2">
           <img
