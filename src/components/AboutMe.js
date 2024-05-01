@@ -5,7 +5,7 @@ function AboutMe() {
     <div>
       <hr />
       <h1 className="font-bold text-[1.6rem] text-center font-Inter">About me </h1>
-      <p className="font-Lora m-4 text-lg">
+      <p className="font-Lora m-4 text-lg justify-center text-justify">
         In a world cluttered with distractions, I believe in the power of
         simplicity to cut through the noise and deliver meaningful experiences. 
         As a full stack web developer, I bring together form and functions in a
