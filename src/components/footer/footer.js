@@ -8,17 +8,6 @@ function Footer() {
       </nav>
       <nav>
         <h6 className="footer-title font-Inter">Contact me @</h6>
-        <div className="flex">
-          <img
-            src="https://www.svgrepo.com/show/460030/phone.svg"
-            alt="phone"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            className="fill-current mx-1 bg-slate-300"
-          />
-          <p>8920307517</p>
-        </div>
         <div className="flex ">
           <img
             src="https://www.svgrepo.com/show/474224/email.svg"
@@ -38,7 +27,7 @@ function Footer() {
             <img
               src="https://www.svgrepo.com/show/449764/github.svg"
               alt="github"
-              width="24"
+              width="24" 
               height="24"
               viewBox="0 0 24 24"
               className="fill-current"
