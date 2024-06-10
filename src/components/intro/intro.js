@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 function Intro() {
   return (
     <>
-      <div>
+      {/* <div>
         <div
           class="w-0 h-0 absolute z-10 
   md:border-l-[0] border-l-transparent
@@ -24,7 +24,7 @@ function Intro() {
   md:border-b-[46.3em] border-b-black
   md:border-r-[0] border-r-transparent "
         ></div>
-      </div>
+      </div> */}
       <div className="md:flex">
         <div className="my-[250px] md:ml-[280px] text-[2rem] ml-5 pb-20">
           <h1 className="font-bold font-Devanagri ">नमस्कार</h1>
