@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div>
+    <div id="about">
       <hr />
       <h1 className="font-bold text-[1.6rem] text-center font-Inter">About me </h1>
       <p className="font-Lora m-4 text-lg justify-center text-justify">

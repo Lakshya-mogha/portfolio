@@ -2,7 +2,7 @@ import React from "react";
 import ContactForm from "./contactForm";
 function Footer() {
   return (
-    <footer className="footer p-10 bg-base-100 text-base-content font-Lora">
+    <footer id="contact" className="footer justify-around p-10 bg-base-100 text-base-content font-Lora">
       <nav>
         <ContactForm />
       </nav>

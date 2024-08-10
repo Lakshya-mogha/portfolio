@@ -26,32 +26,35 @@ function Intro() {
         ></div>
       </div> */}
       <div className="md:flex">
-        <div className="my-[250px] md:ml-[280px] text-[2rem] ml-5 pb-20">
-          <h1 className="font-bold font-Devanagri ">नमस्कार</h1>
-          <p className="font-Lora">
-            I'm Lakshya Mogha,
-            <br />
-            <TypeAnimation
-              sequence={[
-                "I am a frontend developer",
-                1000,
-                "I am a backend developer",
-                1000,
-                "I am a full stack developer",
-                1000,
-                "I am a web designer",
-                1000,
-                "I am a coding enthusiast",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              style={{ position: "absolute" }}
-              repeat={Infinity}
-            />
-            <br />
-          </p>
-        </div>
+        <section className="mb-16">
+          <div className="my-[250px] md:ml-[280px] text-[2rem] ml-5 pb-20">
+            <h1 className="font-bold font-Devanagri ">नमस्कार</h1>
+            <p className="font-Lora">
+              I'm Lakshya Mogha,
+              <br />
+              <TypeAnimation
+                sequence={[
+                  "I am a frontend developer",
+                  1000,
+                  "I am a backend developer",
+                  1000,
+                  "I am a full stack developer",
+                  1000,
+                  "I am a web designer",
+                  1000,
+                  "I am a coding enthusiast",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                style={{ position: "absolute" }}
+                repeat={Infinity}
+              />
+              <br />
+            </p>
+          </div>
+          
+        </section>
         {/* <img
           src="./img/OIcVN0R7Yxstun0LPdOkl-transformed-removebg-preview.png"
           alt=""
