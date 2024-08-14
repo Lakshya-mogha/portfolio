@@ -13,8 +13,9 @@ function App() {
       <header className="py-6 px-4 sm:px-6 lg:px-8">
         <nav>
           <ul className="flex justify-center space-x-4">
-            <li><a href="#about" className="hover:text-blue-400 transition-colors">About</a></li>
             <li><a href="#skills" className="hover:text-blue-400 transition-colors">Skills</a></li>
+            <li><a href="#projects" className="hover:text-blue-400 transition-colors">Projects</a></li>
+            <li><a href="#about" className="hover:text-blue-400 transition-colors">About</a></li>
             <li><a href="#contact" className="hover:text-blue-400 transition-colors">Contact</a></li>
           </ul>
         </nav>

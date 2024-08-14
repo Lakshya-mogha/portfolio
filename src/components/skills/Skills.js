@@ -31,7 +31,6 @@ function Skills() {
         
       </div>
       <section id="skills" className="mb-16">
-          <h2 className="text-2xl font-semibold mb-4">Things I play with</h2>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
             {technologies.map((tech) => (
               <div key={tech.name} className="flex flex-col items-center p-2 bg-gray-100 rounded-lg hover:bg-gray-300 transition-colors">
