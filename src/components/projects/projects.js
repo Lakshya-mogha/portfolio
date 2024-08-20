@@ -8,11 +8,18 @@ const projects = [
     link:"https://nxs-esports.vercel.app/"
   },
   {
+    name: "Dex wizard",
+    desc: "Crypto watching platform",
+    img: "./img/dex.png",
+    link:"https://dex-wizard-lakshya.vercel.app/"
+  },
+  {
     name: "portfolio",
     desc: "portfolio to showcase my talent",
     img: "./img/portfolio.png",
     link: "/"
   },
+  
 ];
 function Projects() {
   return (
